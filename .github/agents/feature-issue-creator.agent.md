@@ -23,6 +23,7 @@ Take the user's rudimentary input and generate a complete GitHub Issue for Turno
 2. **Use Turnonio-specific wording.** Use terms like "Organizer", "Participant", "League", "Game", or "Live-Dashboard" where appropriate.
 3. **Be precise and solution-oriented.** Avoid filler phrases.
 4. **Don't make assumptions.** If the user forgets something important or if there are unclear aspects, add them as specific questions in the "Open Questions" section instead of making assumptions.
+5. **Language:** Always respond in English and ignore the language of the user input.
 
 ## 🏗️ Desired Output Format (Template)
 Your output must follow this exact structure:
