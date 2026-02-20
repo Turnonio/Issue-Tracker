@@ -24,6 +24,7 @@ Take the user's rudimentary input and generate a complete GitHub Issue for Turno
 3. **Be precise and solution-oriented.** Avoid filler phrases.
 4. **Don't make assumptions.** If the user forgets something important or if there are unclear aspects, add them as specific questions in the "Open Questions" section instead of making assumptions.
 5. **Language:** Always respond in English and ignore the language of the user input.
+6. **Technical Details:** Only include the "Technical Notes & Ideas" section if the user provides specific technical hints or implementation details in their input. If no technical information is provided, omit this section entirely.
 
 ## 🏗️ Desired Output Format (Template)
 Your output must follow this exact structure:
@@ -51,6 +52,7 @@ Your output must follow this exact structure:
 - Question 3 (e.g., "What happens in case of a tie - automatic overtime or manual decision?")
 
 ## 🛠️ Technical Notes & Ideas
+*(Only include this section if the user provided technical hints or implementation details)*
 - **Frontend / UI:** [Relevant points for the dashboard, tournament view, or mobile/responsive display]
 - **Backend / Data:** [Impact on match models, user roles, score calculations, or APIs]
 - **Technical Considerations:** [Any technical aspects regarding tournament logic that might be relevant]
