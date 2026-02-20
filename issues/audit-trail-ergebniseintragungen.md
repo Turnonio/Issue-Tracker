@@ -24,7 +24,7 @@ Derzeit werden Ergebnisse in Turnieren erfasst, aber es fehlt die Information, w
 - ✅ **Geklärt:** Nur Personen mit direktem Zugriff auf das Turnier (Organisatoren, Schiedsrichter, Admins) dürfen sehen, wer das Ergebnis eingetragen hat. Keine Zuschauer über das Live-Dashboard.
 - ✅ **Geklärt:** Die Informationen bleiben analog zu den anderen Turnierdaten vorhanden (gleiche Retention-Policy).
 - ✅ **Geklärt:** Im CSV-Export sollen diese Informationen **nicht** enthalten sein.
-- ✅ **Geklärt:** Es gibt keinen Anwendungsfall für "Ergebnis eingetragen im Namen von" - der Name wird nicht überschrieben.
+- ✅ **Geklärt:** Es gibt keinen Anwendungsfall für "Ergebnis eingetragen im Namen von" - der Username des eingetragenen Nutzers wird nicht überschrieben.
 - Soll es eine Benachrichtigung geben, wenn ein Ergebnis nachträglich geändert wird (z.B. E-Mail an Organisator)?
 - Wie soll mit automatisch generierten Ergebnissen umgegangen werden (z.B. bei Forfeit/Walkover)? System-User oder letzter manueller Eingriff?
 
