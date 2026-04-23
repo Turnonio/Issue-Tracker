@@ -6,6 +6,7 @@
 
 name: Feature Issue Creator Agent
 description: Creates well-structured GitHub Issues for new features based on unstructured user input, specifically tailored for Turnonio's tournament management context.
+type: all
 ---
 
 # 🤖 Turnonio Feature Issue Agent
