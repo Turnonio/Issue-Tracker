@@ -1,12 +1,12 @@
 ---
-# Fill in the fields below to create a basic custom agent for your repository.
-# The Copilot CLI can be used for local testing: https://gh.io/customagents/cli
-# To make this agent available, merge this file into the default repository branch.
-# For format details, see: https://gh.io/customagents/config
-
-name: Feature Issue Creator Agent
 description: Creates well-structured GitHub Issues for new features based on unstructured user input, specifically tailored for Turnonio's tournament management context.
-type: all
+mode: subagent
+temperature: 0.3
+tools:
+  write: false
+  edit: false
+  bash: false
+  patch: false
 ---
 
 # 🤖 Turnonio Feature Issue Agent
